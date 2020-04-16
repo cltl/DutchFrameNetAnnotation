@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "express": "^4.17.1",
+        "node": "^13.10.1"
+    },
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cltl/DutchFrameNetAnnotation"
+    }
+}

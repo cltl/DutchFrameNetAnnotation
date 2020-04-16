@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Dutch FrameNet Annotation</title>
+</head>
+
+<body onload="load_function()">
+    <h1>Dutch FrameNet Annotation</h1>
+
+    <object type="image/svg+xml"
+            id="image"
+            class="avatar"
+            annotation_identifier="None"
+            data="v1/the_end.svg"></object>
+    <h4>A link has been proposed between an RBN sense (top node) and a FrameNet Lexical Unit (node starting with LU-).</h4>
+    <h4>The node below the Lexical Unit is the frame to which it belongs.</h4>
+    <h4>When you place your mouse on a node, more information is shown about it </h4>
+
+    <p>What is your assessment of the established link between the RBN sense and the FrameNet Lexical Unit</p>
+    <select id="link_quality">
+        <option value="exact_match">exact match</option>
+        <option value="close_match">close match</option>
+        <option value="no_match">no match</option>
+        <option value="dk">Don't know</option>
+    </select>
+
+    <p>What do you propose that we do with the established link?</p>
+    <select id="proposal">
+        <option value="keep">link RBN sense to Lexical Unit</option>
+        <option value="new_lu_to_frame">make new LU for the frame and link the RBN sense to it.</option>
+        <option value="remove">remove link</option>
+        <option value="dk">Don't know</option>
+    </select>
+
+    <p>After entering a value to both dropdown menus above, please click the button below:</p>
+    <button id="myButton">Save annotation</button>
+
+</body>
+<script src="client.js"></script>
+
+</html>
