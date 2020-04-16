@@ -18,16 +18,20 @@ node -v
 ```
 The output should be *v13.10.1*.
 
-
 ## Install packages
 ```
 npm install
 ```
 This should install the packages from *package.json*.
 
+## Download resources
+
+```
+bash install.sh
+```
 
 ## How to use
-Run 
+Run
 
 ```
 node server.js v1
