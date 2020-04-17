@@ -6,17 +6,25 @@ The goal of this tool is to enable annotation for Dutch FrameNet.
 Please install [npm](https://www.npmjs.com/get-npm).
 
 ## Install node.js
-Please install node.js version 13.10.1. This can be done using:
+Please install node.js
+
+On Mac, one possibility is to run:
 
 ```bash
 npm install node@13.10.1
 ```
 
-Please check that you're using the correct version:
+On Ubuntu, [this](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/) is an option:
+```
+sudo apt-get install nodejs
+```
+
+Please check your version.
 ```bash
 node -v
 ```
-The output should be *v13.10.1*.
+Make sure you have at least major version 8.
+
 
 ## Install packages
 ```
