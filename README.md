@@ -45,7 +45,9 @@ Run
 node server.js v1
 ```
 
-Point your browser towards *http://localhost:8080/*
+Point your Google Chrome browser towards *http://localhost:8080/*.
+The application has not been validated on other browsers.
+For example, the images do not show correctly using Firefox.
 When you've completed the annotation process, i.e., an image of **the end** is shown.
 
 ### What if I make a mistake
