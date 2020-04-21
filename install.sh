@@ -4,8 +4,8 @@
 rm -rf resources
 mkdir resources
 cd resources
-wget http://kyoto.let.vu.nl/~postma/dfn/lexicon/tool_input.zip
-unzip tool_input.zip
+wget http://kyoto.let.vu.nl/~postma/dfn/lexicon/annotation/v1.zip
+unzip v1.zip
 cd .. 
 
 rm -rf data 

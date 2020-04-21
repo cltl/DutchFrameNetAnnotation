@@ -46,5 +46,11 @@ node server.js v1
 ```
 
 Point your browser towards *http://localhost:8080/*
-
 When you've completed the annotation process, i.e., an image of **the end** is shown.
+
+### What if I make a mistake
+The command line shows the made annotation.
+Please write down the identifier and the correct annotation values.
+
+## Output
+The output is found in **data/v1/annotations.json**.
