@@ -9,7 +9,7 @@ const bodyParser = require('body-parser')
 // load command line arguments
 const version = process.argv[2];
 
-let accepted_versions = ["v1"];
+let accepted_versions = ["v2"];
 let version_ok = accepted_versions.includes(version)
 
 if (version_ok == false) {

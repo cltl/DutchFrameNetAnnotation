@@ -42,7 +42,7 @@ bash install.sh
 Run
 
 ```
-node server.js v1
+node server.js v2
 ```
 
 Point your Google Chrome browser towards *http://localhost:8080/*.
